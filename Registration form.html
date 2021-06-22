@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Design.css">
+  </head>
+  <body>
+    <header>
+    <h1>Registration Form</h1>
+  </header>
+    <hr />
+    <p><b> Required field are shown by *</b></p>
+    <hr>
+    <form action="">
+      <p>Student Name:* <input type="text" name="name" id="name" required /></p>
+
+      <p>
+        Class:*
+        <select name="class" id="class" required>
+          <option value="9TH">9TH</option>
+          <option value="10TH">10TH</option>
+          <option value="11TH">11TH</option>
+          <option value="12TH">12TH</option>
+        </select>
+      </p>
+      <fieldset>
+        <legend>Parents name</legend>
+        <p>
+          Father Name:*
+          <input type="text" name="Father name" id="Father Name" required />
+        </p>
+
+        <p>
+          Mother Name:*
+          <input type="text" name="Mother name" id="Mother NAME" required />
+        </p>
+      </fieldset>
+      <p>
+        Phone-no*<input type="number" name="Phone-no" id="Phone-no" /> required
+      </p>
+      <!---Facing problem i number type when i write (e) it shown-->
+      <p>E-mail* <input type="email" name="email" id="email" required /></p>
+
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
