@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+  .image{
+    -ms-flex-align: start;
+    display: flex;
+    float: left;
+    padding: 90px;
+    flex-wrap: wrap;
+  }
+  .para {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    padding: 90px;
+    flex-wrap: wrap;
+    
+  }
+
+  a { background-color: rgb(7, 7, 7);
+      text-decoration: none;
+      color: white;
+      padding: 2px;
+      flex-wrap: wrap;
+    
+    }
+
+  a:hover{
+      background-color: rgb(91, 91, 94);
+      color: rgb(211, 202, 202);
+  }
+ p{
+     color: rgb(138, 137, 133);
+ }
+ h1{
+     color: rgb(65, 63, 63);
+ }
+
+ h2{
+     font-size: 20px;
+ }
